@@ -6,9 +6,9 @@ value_list1 = []
 result_list = []
 
 for i in loop_length1:
-    value = int(input("Enter list-1 Value : "))
-    new_value = value * value
-    value_list1.insert(i, value)
+    count = int(input("Enter list-1 Value : "))
+    new_value = count * count
+    value_list1.insert(i, count)
     result_list.insert(i, new_value)
 
 print(" Original List is : ", value_list1)

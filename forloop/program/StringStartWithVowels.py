@@ -2,13 +2,13 @@
 # outputs a new list containing only the strings that start with a vowel (a, e, i, o, u).
 
 list_index = range(int(input("Enter the size of list  :  ")))
-value = []
+count = []
 result = []
 for i in list_index:
     arr_value = input("Enter the words  : ").lower()
-    value.insert(i,arr_value)
+    count.insert(i, arr_value)
 
-for i in value:
+for i in count:
     count = 0
     for j in i:
         if count == 0:

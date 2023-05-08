@@ -6,12 +6,12 @@ value_list1 = []
 result_list = []
 
 for i in loop_length1:
-    value = input("Enter list-1 Value : ")
-    value_list1.insert(i, value)
+    count = input("Enter list-1 Value : ")
+    value_list1.insert(i, count)
 index = 0
-for value in value_list1:
+for count in value_list1:
     count = 0
-    for i in value:
+    for i in count:
         count = count + 1
     else:
         result_list.insert(index, count)

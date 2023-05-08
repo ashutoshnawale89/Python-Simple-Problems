@@ -11,12 +11,12 @@ result_list = []
 index = 0
 
 for i in loop_length1:
-    value = int(input("Enter list-1 Value : "))
-    value_list1.insert(i, value)
+    count = int(input("Enter list-1 Value : "))
+    value_list1.insert(i, count)
 
 for i in loop_length2:
-    value = int(input("Enter list-2 Value : "))
-    value_list2.insert(i, value)
+    count = int(input("Enter list-2 Value : "))
+    value_list2.insert(i, count)
 
 for i in value_list1:
     for j in value_list2:

@@ -1,13 +1,13 @@
 #Program to check if a year is a leap year:
 
-value = int(input("Enter value"))
-if value % 4 == 0:
-    if value % 100 == 0:
-        if value % 400 == 0:
-            print(value, " is Leap Year")
+count = int(input("Enter value"))
+if count % 4 == 0:
+    if count % 100 == 0:
+        if count % 400 == 0:
+            print(count, " is Leap Year")
         else:
-            print(value, " is Not Leap Year")
+            print(count, " is Not Leap Year")
     else:
-        print(value, " is Leap Year")
+        print(count, " is Leap Year")
 else:
-    print(value, " is Not Leap Year")
+    print(count, " is Not Leap Year")

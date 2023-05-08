@@ -3,13 +3,13 @@
 
 loop_length= range(int(input("Enter loop length")))
 arr = [0]
-sum=0
+sum_Fibbo=0
 for loop in loop_length:
-    value = int(input("Enter value"))
-    arr.insert(loop , value)
+    count = int(input("Enter value"))
+    arr.insert(loop, count)
 
 for loop in arr :
-    if(sum < loop):
-        sum = loop
+    if(sum_Fibbo < loop):
+        sum_Fibbo = loop
 else:
-    print("Largest Value is ",sum)
+    print("Largest Value is ", sum_Fibbo)

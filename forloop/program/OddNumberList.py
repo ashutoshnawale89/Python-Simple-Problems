@@ -6,9 +6,9 @@ value_list1 = []
 result_list = []
 index = 0
 for i in loop_length1:
-    value = int(input("Enter list-1 Value : "))
-    value_list1.insert(i, value)
-    if value % 2 != 0:
-        result_list.insert(index, value)
+    count = int(input("Enter list-1 Value : "))
+    value_list1.insert(i, count)
+    if count % 2 != 0:
+        result_list.insert(index, count)
         index += index
 print(" Odd Number is : ", result_list)

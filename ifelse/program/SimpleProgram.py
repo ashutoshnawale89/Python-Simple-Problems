@@ -4,8 +4,8 @@
 num1=int(input("Enter the value 1"))
 num2=int(input("Enter the value 2"))
 # SUM
-sum=num1+num2
-print("The sum of value is : ",sum)
+sum_Fibbo= num1 + num2
+print("The sum of value is : ", sum_Fibbo)
 
 #Substraction
 sub=num1-num2

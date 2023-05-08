@@ -2,8 +2,8 @@
 # and outputs the reverse of the string.
 
 input_value = input("Enter The Value")
-value = ""
+count = ""
 for n in input_value:
-    value = n + value
+    count = n + count
 else:
-    print(value)
+    print(count)
