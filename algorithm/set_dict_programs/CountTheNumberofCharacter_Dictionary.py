@@ -1,7 +1,7 @@
 #Dictionary program: Count the number of occurrences of each character in a string using a dictionary
 
 def counCharacterInString():
-    str_value = input("Enter the value of Count Character : ")
+str_value = input("Enter the value of Count Character : ")
     count_Character = {}
     list_value = []
     for i in str_value:
